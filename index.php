@@ -35,7 +35,7 @@
 <?php
 $json_url = "https://vcc-na10b.8x8.com/api/rtstats/stats/agents.json";  
 $crl = curl_init();
-$username="gbsenterprisesllc01";
+$username="******";
 $password ="1e82f5d90806386a4bf3dd7ce41c86342e8485871a6865535f4e9a9034b17355";
 curl_setopt($crl, CURLOPT_USERPWD, "$username:$password");
 curl_setopt($crl, CURLOPT_URL, $json_url);
